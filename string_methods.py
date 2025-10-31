@@ -1,6 +1,8 @@
 # string methods
 
-name = input("Enter your full name: ")
+# name = input("Enter your full name: ")
+phone_number = input("Enter your phone number: ")
+
 
 # result = len(name)
 # result = name.find("i")
@@ -10,8 +12,8 @@ name = input("Enter your full name: ")
 # result = name.lower()
 # result = name.isalpha()
 # result = name.isdigit()
+# result = phone_number.count("-")
+phone_number = phone_number.replace("-", "")
 
 
-
-
-print(result)
+print(phone_number)
