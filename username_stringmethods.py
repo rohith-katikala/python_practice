@@ -13,3 +13,4 @@ elif not username.isalpha():
     print("Your username cannot contain digits")
 else:
     print(f"Welcome {username}")
+    print("Have a good day!")
